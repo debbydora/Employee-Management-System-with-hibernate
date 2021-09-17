@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="card-body">
+    <h5 class="card-title">Attendance register</h5>
+    <a th:href="@{/saveAttendance}" class="btn btn-primary">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+                Mark your Attendance.
+            </label>
+        </div>
+    </a>
+</div>
+</body>
+</html>

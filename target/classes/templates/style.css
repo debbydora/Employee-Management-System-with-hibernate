@@ -1,0 +1,91 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 450px;
+    padding: 80px;
+    background: #23463f;
+    border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+
+email{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+password{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+
+
+}
+/*span{*/
+/*    color: white;*/
+/*    font-size: 17px;*/
+/*}*/
+/*a{*/
+/*    float: right;*/
+/*    background-color: grey;*/
+/*}*/
+
+/*<!--<div class="login">-->*/
+/*<!--    <form action="#" th:action="@{/Login}" th:object="${employeeLogin}" method="post">-->*/
+/*<!--        <label path="email"></label><br>-->*/
+
+/*<!--        <input th:type="email" th:field="*{email}" placeholder="Email Address" required/><br>-->*/
+
+/*<!--        <label path="password"></label><br>-->*/
+
+/*<!--        <input th:type="password" th:field="*{password}" placeholder="password" required/>-->*/
+/*<!--        <br>-->*/
+
+/*<!--        <input type="submit" value="Login"/>-->*/
+/*<!--        <br>-->*/
+
+/*<!--        Forgot <a href="#">Password</a>-->*/
+/*<!--    </form>-->*/
+/*<!--</div>-->*/
+
+
+/*<!--<form action="#" th:action="@{/Login}" th:object="${employeeLogin}" method="post">-->*/
+/*<!--    <label path="email">Email</label>-->*/
+/*<!--    <input th:type="email" th:field="*{email}" placeholder="Email Address"/><br>-->*/
+
+/*<!--    <label path="password">password</label>-->*/
+/*<!--    <input th:type="password" th:field="*{password}" placeholder="password"/>-->*/
+
+/*<!--    <input type="submit" value="Login"/>-->*/
+
+
+/*<!--</form>-->*/
